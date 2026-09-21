@@ -6,9 +6,9 @@ A next-generation AI chat workspace built by Nelson Emmanuel | Ravenick. NEXUS c
 > NEXUS uses the Hugging Face Router API for model responses. Your conversation history is stored locally in the browser, while prompts and responses are sent to Hugging Face when you use the chat.
 
 ## Preview
+![desktop](./public/desktop.png)
 
-![Ravenick logo](public/oc-logo-no-bg.png)
-
+![mobile](./public/mobile.png)
 ## Features
 
 - Streaming chat responses with token-by-token rendering
@@ -80,8 +80,8 @@ Never commit `.env` or expose a production API token in a public client applicat
 ## Run Locally
 
 ```bash
-git clone https://github.com/Ravenick/nexus-ai-chat.git
-cd nexus-ai-chat
+git clone https://github.com/Ravenick/next-gen-ai.git
+cd next-gen-ai
 npm install
 npm run dev
 ```
